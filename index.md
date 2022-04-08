@@ -25,3 +25,11 @@ what
 is 
 up
 ```
+
+# VS Code Changes
+*Hey everyone*
+
+**This is awesomeeee**
+
+---
+
