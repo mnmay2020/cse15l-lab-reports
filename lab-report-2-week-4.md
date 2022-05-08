@@ -14,7 +14,7 @@ Symptom of failur-inducing input: \
 
 Once the original code reads the last link, it tries to look for the next open parenthesis after that. Since the next line is empty, the output gives an out of memory error, not knowing where to end the loop. Adding the if statement to cause the loop to break if there are no more links fixed the problem.
 
----
+\newln
 
 ## Code Change 2 and 3: Fixing multiple errors in one try (adding parenthesis in the middle of a link, and making the link surrounded by brackets instead of parenthesis)
 
