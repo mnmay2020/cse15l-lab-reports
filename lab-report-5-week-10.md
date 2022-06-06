@@ -26,7 +26,7 @@ Both of these outputs as you can see are incorrect, because they should contain 
 
 The problem with the code is that the code is unable to read quotations and other characters within a link. This has to do with the section of the code of where the link ends and should be fixed to allow these kinds of inputs. Specifically, the code provided below:
 
-![fixtest1]
+![fixtest1](fixtest1.png)
 
 
 
@@ -49,3 +49,4 @@ Both of these outputs as you can see are incorrect, because they should be an em
 
 The problem with the code is that it does not end when the closing parenthesis ends, so it makes a link out of something before it gets to the end of the line. Otherwise, it would have been invalid, so the code to fix is the part of the code on where the link actually ends. Specifically the code provided below:
 
+![fixtest2](fixtest2.png)
